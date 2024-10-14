@@ -1,0 +1,20 @@
+-
+- Friday{
+    "Hey" : Response("Hello");
+    "Learn that my ~param is ~param": Learn(param);
+    "Forget ~param":Forget(param);
+    "Hi" : Response("Hi" + name);siva
+    "Tell me my ~param" : Response(param + "right?");
+    "Sum numbers ~param ~param" : Action.Sum(param, param);
+    "Substract ~param ~param" : Action.Subtract(param, param);
+}
+Jarvis{
+    "Multiply ~param ~param" : Action.Multiply(param, param);
+    "Whats ~param to the ~param power" : Action.Power(param, param);
+    "Tell me a joke" : Action.Joke();
+    "Throw de dice" : Action.RollDice();
+    "What is the root of ~param" : Action.Root(param);
+    "what is ~param over ~param" : Action.Divide(param, param);
+    "what is ~param mod ~param" : Action.Modulo(param, param);
+    "Give me a random number" : Action.Random();
+
